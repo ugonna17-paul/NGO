@@ -1,0 +1,67 @@
+/* Section Base */
+.impact-section {
+    width: 100%;
+    background: white;
+    padding: 96px 0;
+}
+
+/* Container */
+.impact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Header */
+.impact-header {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.impact-header h2 {
+    margin-bottom: 16px;
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: #1F4E4F;
+    font-family: "Nunito", sans-serif;
+}
+
+.impact-header p {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* Grid Layout */
+.impact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .impact-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Counting Number */
+.impact-count {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #4BAE6F;
+    line-height: 1;
+    margin-bottom: 12px;
+    font-family: "Nunito", sans-serif;
+}
+
+/* Metric Label */
+.impact-label {
+    font-size: 1rem;
+    color: #444B4F;
+    font-family: "Nunito Sans", sans-serif;
+}

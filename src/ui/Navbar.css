@@ -1,0 +1,147 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+    transition: all 0.3s ease;
+}
+
+.navbar-scrolled {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 24px;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Logo Image Box */
+.logo-box {
+  width: 50px;
+  height: 50px;
+  background: #4BAE6F;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* ensures image fits inside */
+}
+
+.logo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+/* Logo title text */
+.logo-title {
+  color: #1F4E4F;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+/* @media (max-width: 768px) {
+    .logo-title {
+        display: none;
+    }
+} */
+
+/* Desktop Navigation */
+.nav-links-desktop {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-link {
+    color: #444B4F;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #4BAE6F;
+}
+
+.cta-btn {
+    padding: 8px 24px;
+    background: #4BAE6F;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+    background: #3d9159;
+}
+
+@media (max-width: 768px) {
+    .nav-links-desktop {
+        display: none;
+    }
+}
+
+/* Mobile Menu Button */
+.menu-button {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-button svg {
+    width: 28px;
+    height: 28px;
+}
+
+@media (max-width: 768px) {
+    .menu-button {
+        display: block;
+    }
+}
+
+/* Mobile Navigation */
+.nav-links-mobile {
+    margin-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.mobile-link {
+    color: #444B4F;
+    text-decoration: none;
+    padding: 8px 0;
+    transition: color 0.3s ease;
+}
+
+.mobile-link:hover {
+    color: #4BAE6F;
+}
+
+.mobile-cta {
+    width: 100%;
+    margin-top: 12px;
+}
