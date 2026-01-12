@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import './Navbar.css'
-import logoImg from '../assets/naph.jpeg'
+import logoImg from '../assets/Logo.png'
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
