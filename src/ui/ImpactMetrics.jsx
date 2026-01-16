@@ -2,12 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./ImpactMetrics.css";
-
+import Img from '../assets/IMG-20260112-WA0163.jpg'
 const metrics = [
-    { value: 1200, label: "Families Reached", suffix: "+" },
-    { value: 350, label: "Volunteers Trained", suffix: "+" },
-    { value: 85, label: "Awareness Sessions", suffix: "+" },
-    { value: 40, label: "Communities Supported", suffix: "+" },
+    { value: 3, label: "Communities Supported", suffix: "+" },
 ];
 
 function CountingNumber({ end, suffix, duration = 2000 }) {
@@ -32,25 +29,17 @@ function CountingNumber({ end, suffix, duration = 2000 }) {
                             setCount(Math.floor(current));
                         }
                     }, 16);
-
-                    return () => clearInterval(timer);
                 }
             },
             { threshold: 0.5 }
         );
 
-        if (ref.current) {
-            observer.observe(ref.current);
-        }
-
+        if (ref.current) observer.observe(ref.current);
         return () => observer.disconnect();
     }, [end, duration, hasAnimated]);
 
     return (
-        <div
-            ref={ref}
-            className="impact-count"
-        >
+        <div ref={ref} className="impact-count">
             {count.toLocaleString()}
             {suffix}
         </div>
@@ -59,39 +48,45 @@ function CountingNumber({ end, suffix, duration = 2000 }) {
 
 export default function ImpactMetrics() {
     useEffect(() => {
-        AOS.init({
-            duration: 800,
-            easing: "ease-out",
-            once: true,
-        });
+        AOS.init({ duration: 800, easing: "ease-out", once: true });
     }, []);
 
     return (
         <section className="impact-section" id="impact">
-            <div className="impact-container">
+            <div className="impact-wrapper">
 
-                {/* Header */}
-                <div className="impact-header" data-aos="fade-up">
-                    <h2>Our Impact</h2>
-                    <p>
-                        Real numbers that reflect our commitment to making a meaningful difference
-                        in the lives of those affected by autism.
-                    </p>
+                {/* Image */}
+                <div className="impact-image" data-aos="fade-right">
+                    <img
+                        src={Img}
+                        alt="Community autism support"
+                    />
+                    <div className="impact-image-overlay">
+                        <span>Making Real Impact</span>
+                    </div>
                 </div>
 
-                {/* Metrics Grid */}
-                <div className="impact-grid">
-                    {metrics.map((metric, index) => (
-                        <div
-                            key={index}
-                            className="impact-card"
-                            data-aos="fade-up"
-                            data-aos-delay={index * 100}
-                        >
-                            <CountingNumber end={metric.value} suffix={metric.suffix} />
-                            <p className="impact-label">{metric.label}</p>
-                        </div>
-                    ))}
+                {/* Content */}
+                <div className="impact-content" data-aos="fade-left">
+                    <div className="impact-header">
+                        <h2>Our Impact</h2>
+                        <p>
+                            Real numbers that reflect our commitment to making a meaningful
+                            difference in the lives of those affected by autism.
+                        </p>
+                    </div>
+
+                    <div className="impact-grid">
+                        {metrics.map((metric, index) => (
+                            <div key={index} className="impact-card">
+                                <CountingNumber
+                                    end={metric.value}
+                                    suffix={metric.suffix}
+                                />
+                                <p className="impact-label">{metric.label}</p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
             </div>

@@ -19,7 +19,7 @@ export default function Hero() {
             <div
                 className="hero-bg"
                 style={{
-                    backgroundImage: `url('https://images.unsplash.com/photo-1665389666769-9a3300eb4805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhdXRpc20lMjBjaGlsZHJlbiUyMGxlYXJuaW5nJTIwdGhlcmFweXxlbnwxfHx8fDE3NjM5OTYzMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080')`,
+                    backgroundImage: `url('https://images.unsplash.com/photo-1609554674944-486e4f397ca9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwY2hpbGQlMjBsZWFybmluZyUyMGZhbWlseSUyMHN1cHBvcnR8ZW58MXx8fHwxNzY4NDgyODgwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral')`,
                 }}
             >
                 <div className="hero-overlay"></div>

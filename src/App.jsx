@@ -14,6 +14,8 @@ import GetInvolved from './ui/GetInvolved'
 import Team from './ui/Team'
 import Contact from './ui/Contact'
 import Footer from './ui/Footer'
+import MissionVision from './ui/MissionVision'
+import Gallery from './ui/Gallery'
 
 function App() {
 
@@ -23,12 +25,14 @@ function App() {
       <Navbar />
       <Hero />
       <AboutUs />
+      <MissionVision />
       <AimsObjectives />
       <Programs />
       <ImpactMetrics />
       <Testimonials />
       <WhyItMatters />
       <GetInvolved />
+      <Gallery />
       <Team />
       <Contact />
       <Footer />

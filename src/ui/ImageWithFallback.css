@@ -1,0 +1,21 @@
+.img-fallback-wrapper {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.img-fallback-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.img-fallback-center img {
+    width: 48px;
+    height: 48px;
+    opacity: 0.5;
+}

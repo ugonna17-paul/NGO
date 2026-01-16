@@ -102,6 +102,36 @@
     }
 }
 
+.donate-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px;
+  background-color: #e63946;       
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 6px;               
+  text-decoration: none;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.donate-btn:hover {
+  background-color: #c92a2a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(230, 57, 70, 0.3);
+}
+
+/* Mobile variant – make it stand out more in the dropdown */
+.nav-links-mobile .donate-btn.mobile-donate {
+  margin-top: 16px;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  width: 100%;                      
+  border-radius: 8px;
+}
+
 /* Mobile Menu Button */
 .menu-button {
     display: none;
