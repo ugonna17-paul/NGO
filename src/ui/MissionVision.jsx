@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./MissionVision.css";
+import Cup from '../assets/Hands and mugs on white table.png'
 
 export default function MissionVision() {
     useEffect(() => {
@@ -21,7 +22,7 @@ export default function MissionVision() {
                     data-aos="fade-right"
                 >
                     <img
-                        src="https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1"
+                        src={Cup}
                         alt="Supporting children with autism through care and inclusion"
                     />
                 </div>

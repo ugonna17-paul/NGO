@@ -6,22 +6,16 @@ import './Testimonials.css'
 
 const testimonials = [
   {
-    name: "Mrs. Adebayo",
-    role: "Parent",
+    name: "Mrs. Ololade Adamolekun",
+    role: "Founder, Jesus Kids – Ibadan",
     quote:
-      "The support and guidance we received changed our family's life. We now understand autism better and know how to help our son thrive.",
+      "I am more than grateful for this great support, including the financial assistance provided toward the care and wellbeing of children with special needs in our orphanage. I truly appreciate everything you have done for us. May God bless you abundantly and grant all your heart’s desires. Thank you so much for your kindness, generosity, and continued support.",
   },
   {
-    name: "Mr. Okafor",
-    role: "Teacher",
+    name: "Mrs. Oloche",
+    role: "Candlelight Foundation – Lagos",
     quote:
-      "The training program equipped me with practical strategies to create an inclusive classroom. My students with autism are now more engaged than ever.",
-  },
-  {
-    name: "Dr. Amina",
-    role: "Healthcare Professional",
-    quote:
-      "Partnering with this organization has amplified our reach. Together, we're making early intervention accessible to more families.",
+      "Thank you so much for your incredibly generous support and kindness towards our work. We are deeply grateful for your trust, belief, and love. Your support will go a long way in strengthening and advancing the impact we are making. We are honoured to be connected with you and look forward to a continued, transparent, and impactful collaboration.",
   },
 ];
 
