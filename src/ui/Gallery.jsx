@@ -7,7 +7,7 @@ import Img2 from '../assets/IMG_20260113_105821_504.jpg'
 import Img3 from '../assets/IMG-20260112-WA0161.jpg'
 import Img4 from '../assets/IMG_20260113_102640_718.jpg'
 import Img5 from '../assets/IMG_20260113_102742_502.jpg'
-import Img6 from '../assets/IMG-20260115-WA0075.jpg'
+import Img6 from '../assets/IMG_20260113_102856_940.jpg'
 
 const galleryImages = [
   {

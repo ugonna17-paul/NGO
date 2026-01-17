@@ -12,7 +12,7 @@ const testimonials = [
       "I am more than grateful for this great support, including the financial assistance provided toward the care and wellbeing of children with special needs in our orphanage. I truly appreciate everything you have done for us. May God bless you abundantly and grant all your heart’s desires. Thank you so much for your kindness, generosity, and continued support.",
   },
   {
-    name: "Mrs. Oloche",
+    name: "Mr. Oloche",
     role: "Candlelight Foundation – Lagos",
     quote:
       "Thank you so much for your incredibly generous support and kindness towards our work. We are deeply grateful for your trust, belief, and love. Your support will go a long way in strengthening and advancing the impact we are making. We are honoured to be connected with you and look forward to a continued, transparent, and impactful collaboration.",

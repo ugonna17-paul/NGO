@@ -16,10 +16,10 @@ export default function Footer() {
                         <h4>Naphtali Initiative For Autism</h4>
                         <p>Supporting autism awareness, early intervention, and community empowerment.</p>
                         <div className="footer-socials">
-                            <a href="#"><Facebook className="footer-icon" /></a>
-                            <a href="#"><Twitter className="footer-icon" /></a>
+                            {/* <a href="#"><Facebook className="footer-icon" /></a> */}
+                            {/* <a href="#"><Twitter className="footer-icon" /></a> */}
                             <a href="#"><Instagram className="footer-icon" /></a>
-                            <a href="#"><Linkedin className="footer-icon" /></a>
+                            {/* <a href="#"><Linkedin className="footer-icon" /></a> */}
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@ export default function Footer() {
                         <ul className="footer-contact">
                             <li><MapPin className="footer-contact-icon" /><span>Lagos, Nigeria</span></li>
                             <li><Mail className="footer-contact-icon" /><span>info@naphtaliautism.org</span></li>
-                            <li><Phone className="footer-contact-icon" /><span>+234 (0) 800 000 0000</span></li>
+                            <li><Phone className="footer-contact-icon" /><span>+1(301) 793-4161</span></li>
                         </ul>
                     </div>
 
