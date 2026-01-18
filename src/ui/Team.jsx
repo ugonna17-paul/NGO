@@ -27,7 +27,7 @@ const trustees = [
     image: Olamide,
   },
   {
-    name: "Alli Kaosarat",
+    name: "Alli-Agbaje Kaosarat",
     role: "Trustee",
     image: Agbaje,
   },
