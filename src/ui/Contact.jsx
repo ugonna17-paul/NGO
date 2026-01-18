@@ -22,9 +22,13 @@ export default function Contact() {
                     <p>
                         Reach out to learn more about our programs, collaborate with us, or request support for your community. We're here to help.
                     </p>
-                    <button className="contact-button">Contact Us</button>
+
+                    <a href="mailto:info@naphtaliinitiative.org">
+                        <button className="contact-button">Contact Us</button>
+                    </a>
                 </div>
             </div>
         </section>
+
     );
 }

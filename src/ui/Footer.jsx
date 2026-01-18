@@ -52,7 +52,7 @@ export default function Footer() {
                         <h4>Contact Info</h4>
                         <ul className="footer-contact">
                             <li><MapPin className="footer-contact-icon" /><span>Lagos, Nigeria</span></li>
-                            <li><Mail className="footer-contact-icon" /><span>info@naphtaliautism.org</span></li>
+                            <li><Mail className="footer-contact-icon" /><span>info@naphtaliinitiative.org</span></li>
                             <li><Phone className="footer-contact-icon" /><span>+1(301) 793-4161</span></li>
                         </ul>
                     </div>
