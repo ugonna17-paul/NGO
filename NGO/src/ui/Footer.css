@@ -1,0 +1,133 @@
+/* Section Base */
+.footer-section {
+    width: 100%;
+    background: #0F1A2A;
+    color: white;
+    padding: 64px 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* Container */
+.footer-container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Grid Layout */
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 48px;
+    margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Column Titles */
+.footer-column h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: white;
+    font-family: "Nunito", sans-serif;
+}
+
+/* Column Text */
+.footer-column p {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 16px;
+}
+
+/* Links */
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #4BAE6F;
+}
+
+/* Social Icons */
+.footer-socials {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.footer-socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: background 0.3s ease;
+}
+
+.footer-socials a:hover {
+    background: #4BAE6F;
+}
+
+.footer-icon {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+/* Contact Info */
+.footer-contact {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-contact li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+}
+
+.footer-contact-icon {
+    width: 20px;
+    height: 20px;
+    color: #4BAE6F;
+    flex-shrink: 0;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 24px;
+    text-align: center;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.6);
+}
