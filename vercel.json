@@ -1,5 +1,11 @@
 {
   "version": 2,
   "buildCommand": "cd NGO && npm install && npm run build",
-  "outputDirectory": "NGO/dist"
+  "outputDirectory": "NGO/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
